@@ -8,7 +8,7 @@ License: GPL2
 URL:	 https://github.com/akopytov/sysbench
 Source0: https://github.com/akopytov/sysbench/archive/%{name}-%{version}.tar.gz
 
-BuildRequires: 	gcc autoconf automake mariadb-devel libaio-devel libxslt ck-devel postgresql-devel 
+BuildRequires: 	gcc libtool autoconf automake mariadb-devel libaio-devel libxslt ck-devel postgresql-devel 
 
 %description
 sysbench is a scriptable multi-threaded benchmark tool based on LuaJIT. It is most frequently used for database benchmarks, but can also be used to create arbitrarily complex workloads that do not involve a database server.
