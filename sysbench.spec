@@ -2,11 +2,11 @@
 
 Name:    sysbench
 Version: 1.0.20
-Release: 1
+Release: 2
 Summary: Scriptable database and system performance benchmark 
 License: GPL2
 URL:	 https://github.com/akopytov/sysbench
-Source0: https://github.com/akopytov/sysbench/archive/%{name}-%{version}.tar.gz
+Source0: https://github.com/akopytov/sysbench/archive/%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
 BuildRequires: 	gcc libtool autoconf automake mariadb-devel libaio-devel libxslt ck-devel postgresql-devel 
 
@@ -39,6 +39,9 @@ sysbench is a scriptable multi-threaded benchmark tool based on LuaJIT. It is mo
 /usr/share/%{name}/*
 
 %changelog
+* Tue Oct 13 2020 liqingqing_1229 <liqingqing3@huawei.com>
+- update source0
+
 * Sun Mar 29 2020 Wei Xiong <myeuler@163.com>
 - Package init
 
